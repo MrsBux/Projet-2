@@ -1,6 +1,6 @@
 /* Ceci est le code css pour le projet 2 Booki*/
  
-/****** General ***********/
+/****** Géneral ***********/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -117,7 +117,6 @@ body {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
 
 
 
