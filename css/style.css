@@ -1,8 +1,63 @@
 /* Ceci est le code css pour le projet 2 Booki*/
  
+
+/********** Code CSS Header **********/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 61.09px;
+    height: 19px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 42px;
+}
+
+.option1, .option2 {
+     padding-top:16px;
+}
+
+.option1:hover{
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+
+}
+
+.option2:hover{
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    
+}
+
+
+
+
+
+
 /****** Géneral ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 :root {
@@ -23,7 +78,6 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
     box-sizing: border-box;
 }
 
