@@ -47,8 +47,65 @@ header {
 }
 
 
+/******** Section 1 du main **********/
 
 
+/*********** formulaire de recherche************/
+
+.research_form{
+    margin: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 49px;
+    
+    
+}
+
+.icon_location{
+    background-color: #F2F2F2;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+.fa-solid fa-location-dot {
+    color: var(--main-bg-color2);
+}
+
+.searchbox {
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 195px;
+    border: 1px solid #F2F2F2;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.submit_button {
+    font-family: 'Raleway', sans-serif ;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 132px;;
+    background-color: #0065FC;
+   border-radius: 0px 15px 15px 0px;
+    border-color: #0065FC; 
+    box-shadow: 0px 0px 0px;
+    
+    
+
+}
+
+.submit_button_mobile { 
+display: none;
+}
 
 
 /****** Géneral ***********/
@@ -61,12 +118,11 @@ header {
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
+    --main-bg-color2: #000000;
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
-    color: var(--main-color);
-}
+
 
 body {
     display: flex;
@@ -80,8 +136,13 @@ body {
 }
 
 .section-title {
-    margin: 0;
+    margin: 0px ;
     font-size: 22px;
+}
+
+h1 {
+    font-size: 22px;
+
 }
 
 .card {
