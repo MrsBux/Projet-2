@@ -1,7 +1,30 @@
 /* Ceci est le code css pour le projet 2 Booki*/
- 
 
-/********** Code CSS Header **********/
+/****** Géneral ***********/
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --main-bg-color2: #000000;
+    --filter-bg-color: #DEEBFF;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
+/********** Header **********/
 
 header {
     display: flex;
@@ -13,8 +36,6 @@ header {
     width: 61.09px;
     height: 19px;
     padding-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
 }
 
 .menu {
@@ -23,43 +44,38 @@ header {
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
-    padding-right: 42px;
+    margin-top: 0px;
 }
 
-.option1, .option2 {
+.option {
      padding-top:16px;
 }
 
-.option1:hover{
+.option:hover{
     color: #0065FC;
     border-top: 2px #0065FC solid;
     border-right: none;
-    border-bottom: none;
     border-left: none;
+    border-bottom: 2px white solid;
 }
-
-.option2:hover{
-    color: #0065FC;
-    border-top: 2px #0065FC solid;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-}
-
 
 /******** Section 1 du main **********/
 
+.section1_trouver {
+
+    margin-left: 50px;
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
 
 /*********** formulaire de recherche************/
 
 .research_form{
-    margin: 20px;
-    padding-left: 30px;
     display: flex;
     flex-direction: row;
-    height: 49px;
-    
-    
+    height: 49px; 
+    padding-top: 20px; 
 }
 
 .icon_location{
@@ -70,7 +86,6 @@ header {
     align-items: center;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
-    
 }
 
 .fa-solid fa-location-dot {
@@ -98,9 +113,6 @@ header {
    border-radius: 0px 15px 15px 0px;
     border-color: #0065FC; 
     box-shadow: 0px 0px 0px;
-    
-    
-
 }
 
 .submit_button_mobile { 
@@ -108,32 +120,6 @@ display: none;
 }
 
 
-/****** Géneral ***********/
-* {
-    font-family: 'Raleway', sans-serif;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-
-:root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --main-bg-color2: #000000;
-    --filter-bg-color: #DEEBFF;
-}
-
-
-
-body {
-    display: flex;
-    justify-content: center;
-}
-
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    box-sizing: border-box;
-}
 
 .section-title {
     margin: 0px ;
