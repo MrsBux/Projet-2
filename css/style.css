@@ -74,6 +74,7 @@ header {
     flex-direction : column;
     justify-content: flex-start;
 }
+
 .headline {
     margin-top: 30px ;
 }
@@ -93,6 +94,7 @@ header {
 }
 
 .icon_location {
+    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,11 +102,6 @@ header {
     width: 50px;
     border: none;
     border-radius: 15px 0px 0px 15px;
-    text-align : center;
-}
-
-.fa-solid fa-location-dot {
-    color: var(--main-bg-color2);
 }
 
 .searchbox {
@@ -128,7 +125,7 @@ header {
     width: 132px;;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
-    border: none ;
+    border: none;
 }
 
 .submit_button_mobile { 
