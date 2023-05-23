@@ -132,8 +132,28 @@ header {
 }
 
 .submit_button_mobile { 
-display: none;
+    background-color: #0065FC;
+    border-radius: 15px 15px 15px 15px;
+    width: 49px;
+    border : none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    z-index: 1;
+    display: none;
 }
+
+.loupe {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    right: 32px;
+    top: 16px;
+    display: none;
+}
+
 
 
 
