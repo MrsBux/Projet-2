@@ -1,6 +1,6 @@
 /* Ceci est le code css pour le projet 2 Booki*/
 
-/****** Géneral ***********/
+/****************************************** Géneral ****************************************/
 body {
     font-family: 'Raleway', sans-serif;
     margin-top: 0px;
@@ -31,7 +31,7 @@ h1 {
     margin-bottom: 0px ;
 }
 
-/********** Header **********/
+/************************************ Header ********************************************/
 
 header {
     display: flex;
@@ -67,7 +67,7 @@ header {
     border-bottom: 2px white solid;
 }
 
-/******** Section 1 du main **********/
+/**************************** Section 1 du main ***********************************/
 
 .section1_trouver {
     display: flex;
@@ -84,7 +84,7 @@ header {
     padding-top: 8px;
 }
 
-/*********** formulaire de recherche************/
+/****** formulaire de recherche******/
 
 .research_form{
     display: flex;
@@ -141,6 +141,7 @@ header {
 }
 
 .loupe {
+    display: none;
     color: white;
     font-size: 18px;
     text-align: center;
@@ -148,9 +149,86 @@ header {
     position: relative;
     right: 32px;
     top: 16px;
-    display: none;
 }
 
+
+/****** Filtres ******/
+
+.filtresmenu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 0px;
+    padding-top: 35px;
+    margin: 0px;
+    
+}
+
+.filtre_title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: solid 2px #d9d9d9; 
+    border-radius: 25px;
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 700;
+    font-size: 17px;
+    height: 50px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.filtre:hover {
+    background-color: #DEEBFF;
+}
+
+.logo_filtre {
+    color: #0065FC;
+}
+
+/******Point infos******/
+
+.infofiltre {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: center;
+    gap: 20px;
+    padding-left: 0px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.info_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #d9d9d9;
+    border-radius: 90%;
+    width: 24px;
+    height: 24px;
+    font-size: 10.7px;
+    color: #0065FC;
+    margin: 0px;
+}
+
+.pinfo{
+    margin: 0px;
+}
 
 
 
