@@ -84,7 +84,7 @@ header {
     padding-top: 8px;
 }
 
-/****** formulaire de recherche******/
+/****** Formulaire de recherche******/
 
 .research_form{
     display: flex;
@@ -151,7 +151,6 @@ header {
     top: 16px;
 }
 
-
 /****** Filtres ******/
 
 .filtresmenu {
@@ -212,7 +211,6 @@ header {
     margin-bottom: 0px;
 }
 
-
 .info_logo {
     display: flex;
     justify-content: center;
@@ -229,6 +227,55 @@ header {
 .pinfo{
     margin: 0px;
 }
+
+
+
+
+/**************************** Section 2 main ***********************************/
+
+/**************************** Section 3 main ***********************************/
+
+/**************************** Footer ***********************************/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 163px;
+}
+
+.section_footer{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    width: 446px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.title_footer {
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dot_footer {
+    font-family: 'Raleway', sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
 
 
 
@@ -287,14 +334,7 @@ header {
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
-}
-
-.populaires-cards img {
-    width: 33%;
-    height: 136px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
+}type
 
 .populaires-cards .card-content {
     width: 67%;
@@ -310,13 +350,30 @@ header {
     margin-bottom: 4px;
 }
 
-.populaires-cards .card-subtitle {
+.populaires-cardtypes .card-subtitle {
     margin: 0;
 }
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
