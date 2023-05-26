@@ -238,6 +238,42 @@ header {
     gap :30px;
 }
 
+
+/*******élements communs card hebergements et populaires*******/
+    
+.card_title {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.infos_tarifs{
+    margin: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+.note {
+    color: #0065FC;
+    display: flex;
+    flex-direction: row;
+    gap: 2.58px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+    
+/***********code cards hébergements*******/
+
 .hebergements {
     background-color: #F2F2F2;
     display:flex;
@@ -256,7 +292,7 @@ header {
     justify-content: space-between;
     align-items: center;
     }
-    
+
 .cardh {
         display: flex;
         flex-direction: column;
@@ -270,15 +306,6 @@ header {
         margin: 0px;
     }
 
-.image_card {
-        width: fill;
-        height: 124px;
-        object-fit: cover;
-        border: solid 5px white;
-        border-radius: 20px 20px 0px 0px ;
-        box-sizing: border-box
-    }
-    
 .containeur_cardh {
         display: flex;
         flex-direction: column;
@@ -287,48 +314,103 @@ header {
         height: 64px;
     }
     
-.infos_tarifs{
-        margin: 0px;
-        padding-right: 15px;
-        padding-left: 15px;
-        font-size: 14px;
-    }
-    
-.card_title {
-        font-weight: 700;
-        font-size: 16px;
-        margin: 0px;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-.note {
-        color: #0065FC;
-        display: flex;
-        flex-direction: row;
-        gap: 2.58px;
-        margin: 0px;
-        padding-top: 5px;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-bottom: 15px;
+.image_cardh {
+        width: fill;
+        height: 124px;
+        object-fit: cover;
+        border: solid 5px white;
+        border-radius: 20px 20px 0px 0px ;
+        box-sizing: border-box
     }
 
 .starh {
-  font-size: 13px;
+        font-size: 13px;
+      }
+      
+.neutral-star{
+              color: #F2F2F2;
+              font-size: 13px;
+          }
+              
+/***********code cards populaires*******/
+
+.populaires {
+background-color: #F2F2F2;
+display:flex;
+flex-direction: column;
+border: solid 2px #000000;
+border-radius: 20px;
+gap: 30px;
+margin: 0px;
+padding-top: 30px;
 }
 
-.neutral-star{
-        color: #F2F2F2;
-        font-size: 13px;
-    }
-    
-.euro {
-        font-weight: 700;
-    }
-    
-/********************************* Section 3 main ***********************************/
+.populaires-title {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row; 
+}
 
+.area_cardp {
+display:flex ;
+flex-direction: column;
+gap: 30px;
+justify-content: flex-start;
+align-items: center;
+}
+
+
+.cardp {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    width: 369px;
+    height: 146px;
+    margin: 0px;
+}
+
+.containeur_cardp {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+    padding-top: 15px;
+    
+}
+
+.image_cardp {
+    width: 123px;
+    height: fill;
+    object-fit: cover;
+    border: solid 5px white;
+    border-radius: 20px 0px 0px 20px ;
+    box-sizing: border-box
+}
+
+.starh {
+    font-size: 13px;
+  }
+  
+.neutral-star{
+          color: #F2F2F2;
+          font-size: 13px;
+      }
+
+.notep{
+        height: 60px;
+        padding-left: 15px;
+        color: #0065FC;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+/********************************* Section 3 main ***********************************/
 
 /************************************** Footer ***********************************/
 
