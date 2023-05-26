@@ -272,7 +272,8 @@ header {
 
 .image_card {
         width: fill;
-        height: 114px;
+        height: 124px;
+        object-fit: cover;
         border: solid 5px white;
         border-radius: 20px 20px 0px 0px ;
         box-sizing: border-box
@@ -305,16 +306,21 @@ header {
         color: #0065FC;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        align-content: flex-start;
-        gap: 2.38px ;
-        padding-top: 4px;
+        gap: 2.58px;
+        margin: 0px;
+        padding-top: 5px;
         padding-right: 15px;
         padding-left: 15px;
+        margin-bottom: 15px;
     }
+
+.starh {
+  font-size: 13px;
+}
 
 .neutral-star{
         color: #F2F2F2;
+        font-size: 13px;
     }
     
 .euro {
