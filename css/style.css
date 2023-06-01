@@ -301,7 +301,7 @@ header {
         flex-direction: column;
         justify-content: flex-start;
         gap: 4px;
-        margin: 33px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
 .containeur_cardh {
@@ -402,6 +402,10 @@ gap: 2px;
 padding: 75px 0px 0px 15px;
 }
 
+.notep2 {
+    padding: 55px 0px 0px 15px;
+}
+
 .starp {
     font-weight: 700;
     width: 12px;
@@ -413,6 +417,22 @@ padding: 75px 0px 0px 15px;
     font-weight: 700;
     width: 12px;
     height: 12px;
+}
+
+
+/**********************************hebergements **********************/
+.hebergements {
+    width: 65%;
+}
+
+/****************************populaires***************************/
+
+.populaires {
+    width: 32%;
+}
+
+.logo_pop {
+    color: #0065FC;
 }
 /********************************* Section 3 main ***********************************/
 
