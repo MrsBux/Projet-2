@@ -37,9 +37,9 @@ h2 {
 }
 
 a {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display:contents;
     color: #000000;
     text-decoration:none;
 }
@@ -49,6 +49,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .logo {
@@ -85,6 +87,8 @@ header {
     display: flex;
     flex-direction : column;
     justify-content: flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .headline {
@@ -241,13 +245,16 @@ header {
 }
 
 
-/******************************** Section 2 main ***********************************/
+/************************************ Section 2 main ***************************************/
 
 .section2_hebergements-and-populaires {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap :30px;
+    justify-content: flex-start;
+    /* flex-wrap: wrap-reverse; */
+    gap:30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .zones_hebergements_et_populaires{
@@ -258,9 +265,9 @@ header {
     gap: 30px;
     padding:30px;
     margin: 30px 0px 0px 0px;
-    }
+}
 
-/*******élements communs card hebergements et populaires*******/
+/*********************élements communs card hebergements et populaires*******/
  
 .card_title {
     font-weight: 700;
@@ -280,16 +287,41 @@ header {
 }
 
  
-/*********** Cards hébergements *******/
+/*************************************** Hébergements **********************/
+
+.hebergements {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.afficher_plus{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
       
 .area_cardh {
     display:flex ;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    width: 811px;
     }
+
+.column_1,
+.column_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+
+}
+
+/******************cards hébergements*************/
 
 .cardh {
         width: 250.33px;
@@ -339,7 +371,7 @@ header {
         margin-bottom: 15px;
     }
       
-/*********** Cards populaires *******/
+/******************************************** Populaires *********************/
 
 .populaires_card_headline {
     display: flex;
@@ -347,6 +379,7 @@ header {
     justify-content: space-between; 
     align-items: center;
     padding: 0px;
+    width: 369px;
 }
 
 .area_cardp {
@@ -354,8 +387,14 @@ display:flex ;
 flex-direction: column;
 gap: 30px;
 justify-content: flex-start;
-align-items: center;
+align-items: flex-start;
+width: 369px;
 }
+
+.logo_pop {
+    color: #0065FC;
+}
+/*****************cards populaires***********************/
 
 .cardp {
     display: flex;
@@ -365,8 +404,8 @@ align-items: center;
     border-radius: 20px;
     border: solid 5px white;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    width: 369px;
-    height: 146px;
+    width: 359px;
+    height: 137px;
 }
 
 .containeur_cardp {
@@ -399,11 +438,11 @@ flex-direction: row;
 justify-content: flex-start;
 align-items:center;
 gap: 2px;
-padding: 75px 0px 0px 15px;
+padding: 65px 0px 0px 15px;
 }
 
 .notep2 {
-    padding: 55px 0px 0px 15px;
+    padding: 45px 0px 0px 15px;
 }
 
 .starp {
@@ -420,20 +459,6 @@ padding: 75px 0px 0px 15px;
 }
 
 
-/**********************************hebergements **********************/
-.hebergements {
-    width: 65%;
-}
-
-/****************************populaires***************************/
-
-.populaires {
-    width: 32%;
-}
-
-.logo_pop {
-    color: #0065FC;
-}
 /********************************* Section 3 main ***********************************/
 
 /************************************** Footer ***********************************/
@@ -447,6 +472,8 @@ footer {
     background-color: #F2F2F2;
     width: 100%;
     height: 163px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .section_footer{
@@ -475,6 +502,19 @@ footer {
 
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
 /******************************* Media Querries **********************************/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
