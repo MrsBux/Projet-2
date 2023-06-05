@@ -56,10 +56,11 @@ header {
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+    width: 93.05%;
 }
 
 .logo {
-    width: 61.09px;
+    width: 4.2%;
     height: 19px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -93,6 +94,7 @@ header {
     flex-direction : column;
     justify-content: flex-start;
     margin: 30px 50px 0px 50px;
+    width: 93.05%;
 }
 
 .subtitle {
@@ -124,7 +126,7 @@ header {
     font-weight: 700;
     font-size: 18px;
     text-align: center;
-    width: 195px;
+    width: 14.25%;
     border: 1px solid #F2F2F2;
     border-radius: 0px 0px 0px 0px;
     border-left: none;
@@ -137,7 +139,7 @@ header {
     font-weight: 700;
     font-size: 18px;
     text-align: center;
-    width: 132px;;
+    width: 9.86%;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     border: none;
@@ -147,7 +149,7 @@ header {
 .submit_button_mobile { 
     background-color: #0065FC;
     border-radius: 15px 15px 15px 15px;
-    width: 49px;
+    width: 3.40%;
     border : none;
     color: white;
     font-size: 18px;
@@ -230,15 +232,12 @@ header {
 .info_logo {
     text-align: center;
     border: solid 1px #d9d9d9;
+    width: 22px;
+    height: 17px;
     border-radius: 90%;
-    width: 30px;
-    height: 20px;
-    position: relative;
     font-size: 10.7px;
     color: #0065FC;
-    padding-top: 10px;
-    position: relative;
-    bottom: 5px;
+    padding-top: 5px;
     margin: 0px;
 }
 
@@ -252,9 +251,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap-reverse;
     gap:30px;
     margin: 30px 50px 0px 50px;
+    width: 93.05%;
 }
 
 .zones_hebergements_et_populaires{
@@ -292,6 +292,7 @@ header {
 .hebergements {
     padding-bottom: 0px;
     margin-bottom: 0px;
+    width: 60.48%;
 }
 
 .afficher_plus{
@@ -307,24 +308,25 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    width: 811px;
+    width: 100%;
     }
+
+
 
 .column_1,
 .column_2 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     gap:30px;
-
+    width: 100%;
 }
 
 /******************cards hébergements*************/
 
 .cardh {
-        width: 250.33px;
+        width: 30.86%;
         height: 207.25px;
         background-color: white;
         border-radius: 20px;
@@ -372,6 +374,11 @@ header {
     }
       
 /******************************************** Populaires *********************/
+.populaires {
+    width: auto;
+}
+
+
 
 .populaires_card_headline {
     display: flex;
@@ -379,7 +386,8 @@ header {
     justify-content: space-between; 
     align-items: center;
     padding: 0px;
-    width: 369px;
+    width: 100%;
+
 }
 
 .area_cardp {
@@ -388,7 +396,7 @@ flex-direction: column;
 gap: 30px;
 justify-content: flex-start;
 align-items: flex-start;
-width: 369px;
+width: 100%
 }
 
 .logo_pop {
@@ -469,6 +477,7 @@ padding: 65px 0px 0px 15px;
     gap: 30px;
     margin: 37.5px 50px 0px 50px;
     padding: 27.5px 30px 30px 30px;
+    width: 88.9%;
 }
 
 .cards_activites {
@@ -476,17 +485,19 @@ padding: 65px 0px 0px 15px;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap:30px
+    gap:30px;
+    width: 100%
+
 }
 
 .card_act {
     display: flex;
     flex-direction: column;
-    width: 297.5px;
+    width: 23.15%;
     height: 439px;
     border: 1px #f1f1f1 solid;
     border-radius: 20px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    box-shadow:0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .img_act {
@@ -506,7 +517,7 @@ footer {
     align-items: flex-start;
     list-style-type: none;
     background-color: #F2F2F2;
-    width: 100%;
+    width: 93.05%;
     height: 163px;
     margin: 35px 50px 0px 50px;
 }
@@ -518,7 +529,7 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 15px;
-    width: 446px;
+    width: 100%;
     margin: 0px;
     padding : 20px 0px 0px 20px;
 }
