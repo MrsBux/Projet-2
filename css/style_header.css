@@ -1,0 +1,94 @@
+/* Ceci est le code css pour le header du projet 2 Booki*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 93.05%;
+}
+
+.logo {
+  width: auto;
+  height: 19px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 0px;
+}
+
+.option {
+  padding-top: 16px;
+}
+
+.option:hover {
+  color: #0065fc;
+  border-top: 2px #0065fc solid;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px white solid;
+}
+
+/* Medium devices (tablets, less/equal than 1024px, more than 768px) */
+
+/* Pas de modifications du header */
+
+/*Small devices (phones) */
+
+@media all and (max-width: 768px) {
+  body {
+    margin: 0px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .logo {
+    padding: 30px 0px 0px 0px;
+    margin: auto;
+  }
+
+  .menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .option {
+    padding: 0px 0px 15px 0px;
+    width: 100%;
+  }
+
+  .option:hover {
+    color: #0065fc;
+    border-bottom: 2px #0065fc solid;
+    border-right: none;
+    border-left: none;
+    border-top: 2px white solid;
+  }
+}
+
+/* Large computer (more than 1440px) */
+
+/* Pas de modifications du header */

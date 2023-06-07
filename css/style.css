@@ -1,4 +1,4 @@
-/* Ceci est le code css pour le projet 2 Booki*/
+/* Ceci est le code css pour le main du projet 2 Booki*/
 
 /****************************************** Géneral ****************************************/
 body {
@@ -48,44 +48,6 @@ a {
   display: contents;
   color: #000000;
   text-decoration: none;
-}
-/************************************ Header ********************************************/
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 50px;
-  margin-right: 50px;
-  width: 93.05%;
-}
-
-.logo {
-  width: 4.2%;
-  height: 19px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.menu {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 30px;
-  margin-top: 0px;
-}
-
-.option {
-  padding-top: 16px;
-}
-
-.option:hover {
-  color: #0065fc;
-  border-top: 2px #0065fc solid;
-  border-right: none;
-  border-left: none;
-  border-bottom: 2px white solid;
 }
 
 /**************************** Section 1 du main ***********************************/
@@ -500,44 +462,6 @@ header {
   box-sizing: border-box;
 }
 
-/************************************** Footer ***********************************/
-
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  list-style-type: none;
-  background-color: #f2f2f2;
-  width: 93.05%;
-  height: 163px;
-  margin: 35px 50px 0px 50px;
-}
-
-.section-footer {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  width: 100%;
-  margin: 0px;
-  padding: 20px 0px 0px 20px;
-}
-
-.title-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.dot-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-}
-
 /******************************* Media Querries **********************************/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -545,6 +469,7 @@ footer {
 /****** Media queries ***********/
 
 /* Medium devices (tablets, less/equal than 1024px) */
+
 /* @media (max-width: 1024px) {
     .zones_hebergements_et_populaires {
         flex-direction: column;
