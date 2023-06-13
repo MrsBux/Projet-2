@@ -14,7 +14,7 @@
   }
 
   .headline,
-  .research_form,
+  .research-form,
   .infofilter {
     margin-right: 50px;
   }
@@ -25,7 +25,9 @@
     margin-right: 50px;
   }
 
-  .filters {
+  .filters,
+  .filters-part1,
+  .filters-part2 {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -79,5 +81,66 @@
 
   .title-card-act {
     padding-left: 19px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  body {
+    margin: 20px;
+    padding: 0px;
+  }
+
+  /************** section1-find ******************/
+
+  .section1-find {
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+  }
+
+  /* .icon-location {
+    width: 17.6%;
+  } */
+
+  .searchbox {
+    width: 70%;
+  }
+
+  .submit-button {
+    display: none;
+  }
+
+  .submit-button-mobile {
+    display: flex;
+  }
+
+  .mglass {
+    display: flex;
+  }
+
+  .filtermenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  /* .filter-title {}
+   */
+
+  .filters {
+    flex-wrap: wrap;
+  }
+
+  .filter {
+    width: 162.5px;
+    justify-content: flex-start;
+  }
+
+  .filters-part1 {
+    width: 100%;
+  }
+
+  .logo-filter {
+    font-size: 22px;
   }
 }

@@ -49,13 +49,13 @@
           <!-- Section 1 composée de cinq élement : un titre, un paragraphe; un formulaire, une liste et un div -->
 
           <div class="headline">
-            <h1>Trouver votre hébergement pour des vacances de rêves</h1>
+            <h1>Trouver votre hébergement pour des vacances de rêve</h1>
 
             <p class="subtitle">En plein centre-ville ou en pleine nature</p>
           </div>
 
-          <form class="research_form" action="#" method="post">
-            <i class="fa-solid fa-location-dot icon_location"></i>
+          <form class="research-form" action="#" method="post">
+            <i class="fa-solid fa-location-dot icon-location"></i>
             <input
               class="searchbox"
               type="text"
@@ -63,31 +63,38 @@
               id="ville"
               value="Marseille, France"
             />
-            <input class="submit_button" type="submit" value="Rechercher" />
-            <input class="submit_button_mobile" type="submit" value="" />
+            <input class="submit-button" type="submit" value="Rechercher" />
+            <input class="submit-button-mobile" type="submit" value="" />
             <div class="mglass">
               <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
             </div>
           </form>
 
           <ul class="filtermenu">
-            <li class="filter_title">Filtres</li>
+            <li class="filter-title">Filtres</li>
             <div class="filters">
-              <li class="filter">
-                <i class="fa-sharp fa-solid fa-money-bill-wave logo_filtre"></i>
-                Économique
-              </li>
-              <li class="filter">
-                <i class="fa-sharp fa-solid fa-person logo_filtre"></i> Familial
-              </li>
-              <li class="filter">
-                <i class="fa-sharp fa-solid fa-heart logo_filtre"></i>
-                Romantique
-              </li>
-              <li class="filter">
-                <i class="fa-sharp fa-solid fa-fire logo_filtre"></i> Nos
-                Pépites
-              </li>
+              <div class="filters-part1">
+                <li class="filter">
+                  <i
+                    class="fa-sharp fa-solid fa-money-bill-wave logo-filter"
+                  ></i>
+                  Économique
+                </li>
+                <li class="filter">
+                  <i class="fa-sharp fa-solid fa-person logo-filter"></i>
+                  Familial
+                </li>
+              </div>
+              <div class="filters-part2">
+                <li class="filter">
+                  <i class="fa-sharp fa-solid fa-heart logo-filter"></i>
+                  Romantique
+                </li>
+                <li class="filter">
+                  <i class="fa-sharp fa-solid fa-fire logo-filter"></i> Nos
+                  Pépites
+                </li>
+              </div>
             </div>
           </ul>
 
