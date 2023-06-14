@@ -43,10 +43,6 @@ footer {
 /*Small devices (phones) */
 
 @media all and (min-width: 320px) and (max-width: 768px) {
-  body {
-    margin: 0px;
-  }
-
   footer {
     margin: 0px;
     padding: 30px;
@@ -61,7 +57,3 @@ footer {
     margin: 0px;
   }
 }
-
-/* Large computer (more than 1440px) */
-
-/* Pas de modifications du header */
