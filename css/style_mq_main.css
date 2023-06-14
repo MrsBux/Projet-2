@@ -93,13 +93,9 @@
   /************** section1-find ******************/
 
   .section1-find {
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 30px 0px;
     width: 100%;
   }
-
-  /* .icon-location {
-    width: 17.6%;
-  } */
 
   .searchbox {
     width: 70%;
@@ -122,18 +118,19 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 20px;
   }
-
-  /* .filter-title {}
-   */
 
   .filters {
     flex-wrap: wrap;
+    gap: 20px;
   }
 
   .filter {
-    width: 162.5px;
-    justify-content: flex-start;
+    padding: 0px;
+    width: 155px;
+    justify-content: center;
+    font-size: 14px;
   }
 
   .filters-part1 {
@@ -142,5 +139,22 @@
 
   .logo-filter {
     font-size: 22px;
+  }
+
+  /************** section2-herbergements-et-populaires ******************/
+
+  .section2-hebergements-and-populaires {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+    gap: 0px;
+  }
+
+  .populaires {
+    border-radius: 0%;
+    width: 90%;
   }
 }
