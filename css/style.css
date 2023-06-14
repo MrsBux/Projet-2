@@ -317,7 +317,6 @@ a {
 }
 
 .image-cardh {
-  width: fill;
   height: 124px;
   object-fit: cover;
   border: solid 5px white;
@@ -401,7 +400,6 @@ a {
 
 .image-cardp {
   width: 123px;
-  height: fill;
   object-fit: cover;
   border-radius: 20px 0px 0px 20px;
   box-sizing: border-box;
