@@ -89,22 +89,19 @@
 @media all and (min-width: 320px) and (max-width: 768px) {
   body {
     margin: 0px;
-    padding: 0px;
+  }
+
+  .section1-find,
+  .section2-hebergements-and-populaires,
+  .section3-activities {
+    margin: 0px;
   }
 
   /************** section1-find ******************/
 
   .section1-find {
-    margin: 30px 20px 50px 20px;
-    width: 100%;
-  }
-
-  .headline {
-    padding-right: 20px;
-  }
-
-  .research-form {
-    padding-right: 20px;
+    padding: 20px;
+    margin-top: 35px;
   }
   .searchbox {
     width: 70%;
@@ -128,7 +125,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
-    margin-right: 20px;
   }
 
   .filters {
@@ -149,50 +145,37 @@
     font-size: 22px;
   }
 
-  .infofilter {
-    margin-right: 20px;
-  }
-
   /************** section2-herbergements-et-populaires ******************/
 
   .section2-hebergements-and-populaires {
     margin: 0px;
-    width: 100%;
+    margin-top: 30px;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap-reverse;
     gap: 0px;
   }
 
-  .areas-hebergements-and-populaires {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-  }
-
   .populaires {
-    padding: 20px 30px 20px 20px;
+    padding: 30px 20px 30px 20px;
     border-radius: 0%;
     width: 100%;
   }
 
   .area-cardp {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    align-items: center;
   }
 
   .cardp {
-    width: 100%;
+    width: 97%;
   }
 
   .image-cardp {
-    width: 111px;
+    width: 33%;
   }
 
   .hebergements {
-    margin: 20px;
-    padding: 30px;
+    padding: 30px 20px 20px 20px;
     border-radius: 0%;
     width: 100%;
     background-color: white;
@@ -219,24 +202,18 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    align-items: center;
     gap: 30px;
-    margin: 50px 0px 50px 0px;
-    width: 100%;
-  }
-
-  .activities_title {
-    padding: 0px;
-    margin: 0px;
+    margin: 35px 0px 0px 0px;
+    padding: 30px;
   }
 
   .cards-activities {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    align-items: center;
+    gap: 15px;
     padding: 0px;
-    width: 90%;
+    width: 100%;
   }
 
   .card-act {
