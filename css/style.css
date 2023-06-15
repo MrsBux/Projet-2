@@ -58,13 +58,19 @@ figure {
   padding: 0px;
 }
 
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
 /**************************** Section 1 du main ***********************************/
 
 .section1-find {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 30px 50px 0px 50px;
+  margin: 0px 50px 0px 50px;
   gap: 35px;
   width: 93.05%;
 }
@@ -224,7 +230,7 @@ figure {
   flex-direction: row;
   justify-content: space-between;
   gap: 30px;
-  margin: 30px 50px 0px 50px;
+  margin: 0px 50px 0px 50px;
 }
 
 .areas-hebergements-and-populaires {
@@ -427,8 +433,8 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin: 35px 50px 0px 50px;
-  padding: 30px;
+  margin: 0px 50px 0px 50px;
+  padding: 35px 30px 30px 30px;
 }
 
 .cards-activities {
