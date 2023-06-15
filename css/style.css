@@ -51,6 +51,11 @@ a {
   text-decoration: none;
 }
 
+figure {
+  margin: 0px;
+  padding: 0px;
+}
+
 /**************************** Section 1 du main ***********************************/
 
 .section1-find {
@@ -441,19 +446,15 @@ a {
   flex-direction: column;
   gap: 30px;
   margin: 35px 50px 0px 50px;
-  width: 93.05%;
-}
-
-.activities_title {
-  padding: 30px 30px 0px 30px;
-  margin: 0px;
+  padding: 30px;
 }
 
 .cards-activities {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 30px;
-  padding: 0px 30px 30px 30px;
+  width: 100%;
 }
 
 .card-act {
@@ -461,7 +462,7 @@ a {
   flex-direction: column;
   border: 1px #f1f1f1 solid;
   height: 439px;
-  width: 22.2%;
+  width: 22.9%;
   border-radius: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
