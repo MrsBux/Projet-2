@@ -221,10 +221,10 @@ figure {
 .section2-hebergements-and-populaires {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 30px;
   margin: 30px 50px 0px 50px;
-  width: 93.05%;
+  /* width: 93.05%; */
 }
 
 .areas-hebergements-and-populaires {
@@ -321,13 +321,8 @@ figure {
   box-sizing: border-box;
 }
 
-.starh {
-  font-size: 13px;
-}
-
 .neutral-starh {
   color: #f2f2f2;
-  font-size: 13px;
 }
 
 .ratingh {
@@ -337,30 +332,25 @@ figure {
   gap: 2.58px;
   padding: 5px 0px 0px 15px;
   margin-bottom: 15px;
+  font-size: 13px;
 }
 
 /******************************************** Populaires *********************/
-.populaires {
-  width: auto;
-}
-
 .populaires-card-headline {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: nowrap;
   align-items: center;
+  flex-wrap: nowrap;
   padding: 0px;
-  width: 100%;
 }
 
 .area-cardp {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
+  gap: 30px;
 }
 
 .logo-pop {
