@@ -102,6 +102,7 @@
   .section1-find {
     padding: 20px;
     margin-top: 35px;
+    width: auto;
   }
   .searchbox {
     width: 70%;
@@ -131,13 +132,13 @@
     flex-wrap: wrap;
     gap: 20px;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .filter {
-    padding: 0px;
-    width: 155px;
-    justify-content: center;
+    padding-left: 19px;
+    width: 34.45%;
+    justify-content: flex-start;
     font-size: 14px;
   }
 
