@@ -7,7 +7,6 @@ footer {
   align-items: flex-start;
   list-style-type: none;
   background-color: #f2f2f2;
-  width: 93.05%;
   height: auto;
   margin: 35px 50px 0px 50px;
 }
@@ -38,7 +37,11 @@ footer {
 
 /* Medium devices (tablets, less/equal than 1024px, more than 768px) */
 
-/* Pas de modifications du header */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    margin: 0px;
+  }
+}
 
 /*Small devices (phones) */
 

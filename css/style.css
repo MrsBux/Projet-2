@@ -8,7 +8,9 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  gap: 35px;
 }
 
 :root {
@@ -224,7 +226,6 @@ figure {
   justify-content: space-between;
   gap: 30px;
   margin: 30px 50px 0px 50px;
-  /* width: 93.05%; */
 }
 
 .areas-hebergements-and-populaires {

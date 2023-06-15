@@ -3,31 +3,24 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  body {
-    margin-left: 0px;
-    margin-right: 50px;
+  .section1-find,
+  .section2-hebergements-and-populaires,
+  .section3-activities {
+    margin: 0px;
   }
   /************** section1-find ******************/
 
   .section1-find {
     width: 100%;
-  }
-
-  .headline,
-  .research-form,
-  .infofilter {
-    margin-right: 50px;
+    margin-top: 35px;
   }
 
   .filtermenu {
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 50px;
   }
 
-  .filters,
-  .filters-part1,
-  .filters-part2 {
+  .filters {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -36,15 +29,17 @@
   /************** section2-hebergements-and-populaires***************/
 
   .section2-hebergements-and-populaires {
-    width: 100%;
     flex-direction: column;
     gap: 50px;
+    margin-top: 35px;
   }
 
   .areas-hebergements-and-populaires {
     width: auto;
-    margin-right: 50px;
-    padding: 30px;
+  }
+
+  .populaires {
+    width: auto;
   }
 
   .starh,
@@ -52,9 +47,13 @@
     font-size: 10px;
   }
 
+  .hebergements {
+    padding: 30px;
+  }
+
   .area-cardp {
     flex-direction: row;
-    justify-content: space-between;
+    gap: 20px;
   }
 
   .cardp .card-title {
@@ -70,12 +69,11 @@
   }
 
   /**********************section3-activities***********************/
-  .section3-activities {
-    width: 90%;
-    margin-right: 50px;
-  }
+  /* .section3-activities {
+  } */
 
   .card-act {
+    width: 22%;
     height: 270px;
   }
 
@@ -136,6 +134,8 @@
   .filters {
     flex-wrap: wrap;
     gap: 20px;
+    width: 100%;
+    justify-content: center;
   }
 
   .filter {
@@ -143,12 +143,6 @@
     width: 155px;
     justify-content: center;
     font-size: 14px;
-  }
-
-  .filters-part1,
-  .filters-part2 {
-    width: 100%;
-    justify-content: center;
   }
 
   .logo-filter {
@@ -198,7 +192,7 @@
 
   .hebergements {
     margin: 20px;
-    padding-top: 30px;
+    padding: 30px;
     border-radius: 0%;
     width: 100%;
     background-color: white;
