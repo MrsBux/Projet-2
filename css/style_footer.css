@@ -38,21 +38,18 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px, more than 768px) */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  footer {
-    margin: 0px;
-  }
 }
 
 /*Small devices (phones) */
 
 @media all and (min-width: 320px) and (max-width: 768px) {
   footer {
-    margin: 0px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 50px;
     width: 100%;
+    margin: 0px;
   }
 
   .section-footer {

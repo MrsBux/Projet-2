@@ -3,16 +3,10 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  .section1-find,
-  .section2-hebergements-and-populaires,
-  .section3-activities {
-    margin: 0px;
-  }
   /************** section1-find ******************/
 
   .section1-find {
     width: 100%;
-    margin-top: 35px;
   }
 
   .filtermenu {
@@ -31,7 +25,6 @@
   .section2-hebergements-and-populaires {
     flex-direction: column;
     gap: 50px;
-    margin-top: 35px;
   }
 
   .areas-hebergements-and-populaires {
@@ -87,22 +80,20 @@
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
-  body {
+  .sections {
     margin: 0px;
   }
-
-  .section1-find,
-  .section2-hebergements-and-populaires,
-  .section3-activities {
-    margin: 0px;
-  }
-
   /************** section1-find ******************/
 
   .section1-find {
     padding: 20px;
-    margin-top: 35px;
     width: auto;
+  }
+
+  .researchform {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
   }
   .searchbox {
     width: 70%;
@@ -126,6 +117,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
+    width: 100%;
   }
 
   .filters {
@@ -136,10 +128,9 @@
   }
 
   .filter {
-    padding-left: 19px;
-    width: 34.45%;
-    justify-content: flex-start;
-    font-size: 14px;
+    padding: 0px 19px 0px 19px;
+    width: 33%;
+    font-size: 12px;
   }
 
   .logo-filter {
@@ -149,8 +140,6 @@
   /************** section2-herbergements-et-populaires ******************/
 
   .section2-hebergements-and-populaires {
-    margin: 0px;
-    margin-top: 30px;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap-reverse;
@@ -204,7 +193,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
-    margin: 35px 0px 0px 0px;
     padding: 30px;
   }
 

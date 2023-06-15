@@ -38,9 +38,6 @@ header {
 /* Medium devices (tablets, less/equal than 1024px, more than 768px) */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  header {
-    margin: 0px;
-  }
 }
 /*Small devices (phones) */
 
@@ -51,8 +48,8 @@ header {
     justify-content: space-between;
     width: 100%;
     gap: 30px;
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
   }
 
   .logo {
