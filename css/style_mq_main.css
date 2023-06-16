@@ -125,15 +125,15 @@
 
   .filters {
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .filter {
-    padding: 0px 19px 0px 10px;
-    width: 33%;
-    font-size: 12px;
+    padding: 0px 19px 0px 19px;
+    width: 120.5px;
+    font-size: 14px;
   }
 
   .logo-filter {
