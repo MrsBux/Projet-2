@@ -79,6 +79,8 @@
   }
 }
 
+/*Small devices (phones) */
+
 @media all and (min-width: 320px) and (max-width: 768px) {
   .sections {
     margin: 0px;
@@ -91,12 +93,12 @@
   }
 
   .researchform {
-    width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
   }
+
   .searchbox {
-    width: 70%;
+    width: 60%;
   }
 
   .submit-button {
@@ -105,6 +107,7 @@
 
   .submit-button-mobile {
     display: flex;
+    width: 50px;
   }
 
   .mglass {
@@ -128,7 +131,7 @@
   }
 
   .filter {
-    padding: 0px 19px 0px 19px;
+    padding: 0px 19px 0px 10px;
     width: 33%;
     font-size: 12px;
   }
