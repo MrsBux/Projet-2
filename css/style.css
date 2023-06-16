@@ -160,18 +160,6 @@ figure {
   color: white;
 }
 
-/* .mglass {
-  margin: 0px;
-  padding: 0px;
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  position: relative;
-  z-index: 2;
-  right: 34px;
-  top: 16px;
-  display: none; */
-
 /****** Filtres ******/
 
 .filtermenu {
@@ -180,21 +168,15 @@ figure {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 0px;
   padding: 0px;
 }
 
 .filter-title {
-  text-align: center;
   font-weight: 700;
   font-size: 18px;
-}
-
-.filters {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
 }
 
 .filter {
