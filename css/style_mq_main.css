@@ -81,7 +81,7 @@
 
 /*Small devices (phones less than 768px) */
 
-@media all and (min-width: 320px) and (max-width: 768px) {
+@media all and (max-width: 768px) {
   /******** margins générales pour tout le main en version mobile************************/
 
   .sections {
