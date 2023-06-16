@@ -24,8 +24,9 @@
 
   <body>
     <div class="main-container">
+      <!--main contenaineur de la page auquel seront associés les paramètres max width et box-sizing notemment-->
       <header>
-        <!--Mon header est composé du logo et d'un menu de navigation-->
+        <!--Header composé du logo et d'un menu de navigation nav contenant une liste ul (dont des ancres)-->
 
         <img class="logo" src="images/logo/Booki.png" alt="logo" />
 
@@ -39,9 +40,9 @@
       </header>
 
       <main>
-        <!--Main composé de trois sections-->
-
+        <!--Main composé d'un grand container sections-->
         <div class="sections">
+          <!--Container composé de trois sections distinctes-->
           <section class="section1-find">
             <!-- Section 1 composée de cinq élement : un titre, un sous-titre; un formulaire, une liste et un div -->
 
@@ -101,9 +102,11 @@
           </section>
 
           <section class="section2-hebergements-and-populaires">
-            <!-- Section 2 est composée de 2 conteuneurs div : div hebergements et div populaire-->
+            <!-- Section 2 est composée de 2 conteuneurs div : div hebergements (ancre) et div populaire-->
 
             <div class="areas-hebergements-and-populaires hebergements">
+              <!-- Div hebergements composé d'un titre, d'un div contenant deux colomnes de 3 cards (figure) et d'un lien a-->
+
               <h2 id="myanchor1">Hébergements à Marseille</h2>
 
               <div class="area-cardh">
@@ -116,7 +119,7 @@
                         alt="image d'une chambre"
                       />
 
-                      <figcaption class="containeur-cardh">
+                      <figurecaption class="containeur-cardh">
                         <p class="card-title">Hôtel du port</p>
                         <p class="infos-price">
                           Nuit à partir de 52 <span class="euro">€</span>
@@ -128,7 +131,7 @@
                           <i class="fa-xs fa-solid fa-star starh"></i>
                           <i class="fa-xs fa-solid fa-star neutral-starh"></i>
                         </div>
-                      </figcaption>
+                      </figurecaption>
                     </a>
                   </figure>
 
@@ -264,6 +267,8 @@
             </div>
 
             <div class="areas-hebergements-and-populaires populaires">
+              <!-- Div hebergements composé d'un div contenant titre + icones, d'un div contenant 3 cards (figure)-->
+
               <div class="populaires-card-headline">
                 <h2>Les plus populaires</h2>
                 <i class="fa-solid fa-chart-line logo-pop"></i>
@@ -404,7 +409,7 @@
           </section>
 
           <section class="section3-activities">
-            <!-- Section 2 est composée d'un titre h2 et d'un conteneur div "cards_activité"-->
+            <!-- Section 3 est composée d'un div contenant le titre h2 (qui est une ancre) et d'un conteneur div contnant 4 cards (figure)-->
 
             <div class="activities_title">
               <h2 id="myanchor2">Activités à Marseille</h2>
@@ -418,9 +423,9 @@
                     alt="image du vieux port"
                     class="img-act"
                   />
-                  <figurecap class="title-card-act">
+                  <figurecaption class="title-card-act">
                     <h3>Vieux-Port</h3>
-                  </figurecap>
+                  </figurecaption>
                 </a>
               </figure>
 
@@ -431,9 +436,9 @@
                     alt="image du vieux port"
                     class="img-act"
                   />
-                  <figurecap class="title-card-act">
+                  <figurecaption class="title-card-act">
                     <h3>Fort de Pomègues</h3>
-                  </figurecap>
+                  </figurecaption>
                 </a>
               </figure>
 
@@ -444,9 +449,9 @@
                     alt="image des calanques"
                     class="img-act"
                   />
-                  <figurecap class="title-card-act">
+                  <figurecaption class="title-card-act">
                     <h3>Parc national des calanques</h3>
-                  </figurecap>
+                  </figurecaption>
                 </a>
               </figure>
 
@@ -457,9 +462,9 @@
                     alt="image notre-dame"
                     class="img-act"
                   />
-                  <figurecap class="title-card-act">
+                  <figurecaption class="title-card-act">
                     <h3>Notre-dame-de-la-Garde</h3>
-                  </figurecap>
+                  </figurecaption>
                 </a>
               </figure>
             </div>
@@ -468,6 +473,8 @@
       </main>
 
       <footer>
+        <!-- Footer composé de trois list ul-->
+
         <ul class="section-footer">
           <li class="title-footer">À propos</li>
           <li class="dot-footer">

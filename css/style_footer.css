@@ -1,4 +1,4 @@
-/* Ceci est le code css pour le footer du projet 2 Booki*/
+/* Code css pour le footer version desktop + Media Querries Footer pour les versions tablets et small devices*/
 
 footer {
   display: flex;
@@ -35,12 +35,14 @@ footer {
   font-size: 16px;
 }
 
+/*************************************************** Media Querries ****************************************************/
+
 /* Medium devices (tablets, less/equal than 1024px, more than 768px) */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
 }
 
-/*Small devices (phones) */
+/*Small devices (phones less than 768px) */
 
 @media all and (min-width: 320px) and (max-width: 768px) {
   footer {

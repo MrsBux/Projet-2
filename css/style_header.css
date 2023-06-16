@@ -1,4 +1,4 @@
-/* Ceci est le code css pour le header du projet 2 Booki*/
+/* Code css pour le header version desktop + Media Querries Header pour les versions tablets et small devices*/
 
 header {
   display: flex;
@@ -35,11 +35,14 @@ header {
   border-bottom: 2px white solid;
 }
 
+/************************************Media querries**********************************************************/
+
 /* Medium devices (tablets, less/equal than 1024px, more than 768px) */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
 }
-/*Small devices (phones) */
+
+/* Small devices (phones) less than 768px*/
 
 @media all and (min-width: 320px) and (max-width: 768px) {
   header {
@@ -82,7 +85,3 @@ header {
     border-top: 2px white solid;
   }
 }
-
-/* Large computer (more than 1440px) */
-
-/* Pas de modifications du header */
