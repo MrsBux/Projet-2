@@ -82,20 +82,26 @@ figure {
 .research-form {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 49px;
   width: fit-content;
   box-sizing: border-box;
   gap: 0px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+.input-prefix {
+  border-radius: 15px 0px 0px 15px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-location {
-  color: #000000;
   text-align: center;
-  padding-top: 12.5px;
-  background-color: #f2f2f2;
   width: 50px;
-  border: none;
-  border-radius: 15px 0px 0px 15px;
 }
 
 .label {
@@ -111,9 +117,11 @@ figure {
   text-align: center;
   padding: 0px;
   width: auto;
-  border: 1px solid #f2f2f2;
+  border: 0px solid #f2f2f2;
   border-left: none;
   border-right: none;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .submit-button {
@@ -129,20 +137,30 @@ figure {
   margin: 0px;
 }
 
+.input-suffix {
+  background-color: white;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
 .submit-button-mobile {
+  display: flex;
   background-color: #0065fc;
   border-radius: 15px 15px 15px 15px;
   width: 50px;
   border: none;
-  font-size: 18px;
   text-align: center;
-  z-index: 1;
-  padding: 0px;
   display: none;
-  margin: 0px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.mglass {
+.search-icon {
+  font-size: 18px;
+  color: white;
+}
+
+/* .mglass {
   margin: 0px;
   padding: 0px;
   color: white;
@@ -152,8 +170,7 @@ figure {
   z-index: 2;
   right: 34px;
   top: 16px;
-  display: none;
-}
+  display: none; */
 
 /****** Filtres ******/
 

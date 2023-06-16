@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <!-- Ceci est mon code html pour le projet 2 Booki-->
+  <!-- Ceci est le code html pour mon projet 2 : Créez la page d'accueil d'une agence de voyage avec HTML & CSS-->
 
   <head>
     <meta charset="utf-8" />
@@ -40,7 +40,7 @@
       </header>
 
       <main>
-        <!--Main composé d'un grand container sections-->
+        <!--Main composé d'un grand container "Sections"-->
         <div class="sections">
           <!--Container composé de trois sections distinctes-->
           <section class="section1-find">
@@ -53,7 +53,10 @@
             </div>
 
             <form class="research-form" action="#" method="post">
-              <i class="fa-solid fa-location-dot icon-location"></i>
+              <div class="input-prefix">
+                <i class="fa-solid fa-location-dot icon-location"></i>
+              </div>
+
               <label class="label">Ville</label>
               <input
                 class="searchbox"
@@ -63,9 +66,12 @@
                 value="Marseille, France"
               />
               <input class="submit-button" type="submit" value="Rechercher" />
-              <input class="submit-button-mobile" type="submit" value="" />
-              <div class="mglass">
-                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+              <div class="input-suffix">
+                <button class="submit-button-mobile" type="submit" value="">
+                  <i
+                    class="fa-sharp fa-solid fa-magnifying-glass search-icon"
+                  ></i>
+                </button>
               </div>
             </form>
 
