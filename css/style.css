@@ -179,6 +179,15 @@ figure {
   font-size: 18px;
 }
 
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
 .filter {
   display: flex;
   flex-direction: row;
@@ -191,16 +200,6 @@ figure {
   font-size: 17px;
   height: 46px;
   padding: 0px 19px 0px 19px;
-}
-
-.filters {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 15px;
-  margin: 0px;
-  padding: 0px;
 }
 
 .filter:hover {
