@@ -189,8 +189,18 @@ figure {
   border-radius: 25px;
   font-weight: 700;
   font-size: 17px;
-  height: 50px;
+  height: 46px;
   padding: 0px 19px 0px 19px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .filter:hover {
@@ -275,6 +285,9 @@ figure {
   width: 60.48%;
 }
 
+.titleheb {
+  height: 26px;
+}
 .see-more {
   font-size: 18px;
   font-weight: 700;
@@ -321,7 +334,7 @@ figure {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 8px;
+  gap: 5px;
 }
 
 .image-cardh {
@@ -358,6 +371,7 @@ figure {
   align-items: center;
   flex-wrap: nowrap;
   padding: 0px;
+  height: 26px;
 }
 
 .area-cardp {
@@ -383,7 +397,7 @@ figure {
   border: solid 5px white;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   width: 95%;
-  height: 137px;
+  height: 136px;
 }
 
 .containeur-cardp {
@@ -443,7 +457,7 @@ figure {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 35px 30px 30px 30px;
+  padding: 30px 30px 30px 30px;
 }
 
 .cards-activities {
