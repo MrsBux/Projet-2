@@ -177,15 +177,20 @@ figure {
 .filter-title {
   font-weight: 700;
   font-size: 18px;
+  width: auto;
 }
 
 .filters {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  flex-wrap: wrap;
   align-items: center;
   gap: 15px;
+  width: auto;
+}
+
+.filters:hover {
+  display: flex;
 }
 
 .filter {
